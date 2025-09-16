@@ -1,0 +1,245 @@
+* {
+    user-select: none;
+}
+
+/* Global transition for hoverable elements */
+.a, .b, .cv, .d, .f, .e, .g, .h, .j, .l, .n, .o, .r, #backToTop {
+    transition: all 0.3s ease;
+}
+
+.a {
+    border: transparent;
+    border-bottom: solid 1px grey;
+    outline: transparent;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.a:focus {
+    border: transparent;
+    border-bottom: 2px solid red;
+}
+
+.b {
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px;
+    background-color: rgb(90, 85, 85);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(192, 192, 192);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.b:hover {
+    border: transparent;
+    background-color: pink;
+}
+
+.c {
+    color: rgb(201, 201, 201);
+    font-size: 10px;
+}
+
+.cv {
+    color: rgb(201, 201, 201);
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: underline dotted;
+}
+
+.cv:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.d {
+    border: transparent;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.d:hover {
+    color: red;
+}
+
+.f {
+    border: solid 1px rgb(196, 192, 192);
+    height: 50px;
+    width: 50px;
+    color: rgb(98, 93, 93);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.f:hover {
+    color: pink;
+    border-color: pink;
+}
+
+.e {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: solid 1px blue;
+    padding: 3px;
+}
+
+.e:hover {
+    color: red;
+}
+
+.g {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+.g:hover {
+    color: red;
+}
+
+.h {
+    color: grey;
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
+.h:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.i {
+    border: transparent;
+    background-color: transparent;
+    color: gray;
+    font-size: 13px;
+}
+
+.j {
+    border: transparent;
+    border-bottom: solid 1px grey;
+    color: white;
+    cursor: pointer;
+    padding:1rem;
+}
+
+.j:hover {
+    background: blue;
+    color: white;
+}
+
+.k {
+    background-color: rgb(96, 96, 96);
+    color: white;
+}
+
+.l {
+    color: white;
+    cursor: pointer;
+}
+
+.l:hover {
+    color: red;
+}
+
+.m {
+    color: rgb(55, 55, 55);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.n {
+    border: transparent;
+    outline: transparent;
+    border-bottom: solid 1px grey;
+    background-color: transparent;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.n:focus {
+    border-bottom: solid 1px red;
+}
+
+.o {
+    border: transparent;
+    outline: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.o:hover {
+    color: red;
+}
+
+.p {
+    color: solid 1px grey;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.r {
+    border: transparent;
+    color: rgb(98, 93, 93);
+    cursor: pointer;
+}
+
+.r:hover {
+    color: pink;
+    border-color: pink;
+}
+
+.navbar-toggler {
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+}
+
+.about-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-card img {
+    transition: transform 0.3s ease;
+    height: 300px;
+}
+
+.about-card:hover img {
+    transform: scale(1.05);
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    background: #0077ff;
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    font-size: 27px;
+    cursor: pointer;
+    display: none;
+}
+
+#backToTop:hover {
+    background: #0056cc;
+    transform: scale(1.15);
+}
