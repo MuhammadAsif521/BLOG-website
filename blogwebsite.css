@@ -243,3 +243,34 @@
     background: #0056cc;
     transform: scale(1.15);
 }
+/* Blog Card Enhancements */
+.blog-card {
+    border: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-img-top{
+    height: 300px;
+}
+.blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+.blog-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.blog-description {
+    font-size: 14px;
+    color: #444;
+    text-align: justify;
+}
+.read-more, .read-less {
+    color: #0077ff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.read-more:hover, .read-less:hover {
+    text-decoration: underline;
+}
